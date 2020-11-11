@@ -1,0 +1,228 @@
+.form-container {
+    background:#2F8347;
+	padding: 40px 40px 80px 40px;
+    border-radius: 25px;
+    border: 2px black solid;
+    width: 35%; 
+    margin-left: 750px;
+    margin-top: 25px;
+  }
+
+  /* .form-content-left {
+    background:#ffffff;
+	padding: 34px 30px 40px 30px;
+	border-radius: 10px;
+	border: 2px black solid;
+  } */
+  
+  .logoForm {
+
+  margin-left: 0px;
+	width: 80%;
+	height: 80%;
+  }   
+  
+  /* .form-img-2 {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+  
+  .form-success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color: #fff;
+  }
+  
+  /* .form-content-right {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    
+  } */
+  
+  .form {
+  background:#ffffff;
+	padding: 34px 30px 40px 30px;
+	border-radius: 10px;
+	border: 2px black solid;
+  }
+
+  .form h1 {
+    font-size: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .form-inputs {
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  
+  .form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+  
+  .form-label {
+    font-size: 20px;
+	color: #707079;
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .form-input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #19191a;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  
+
+
+  .form-input::placeholder {
+    color: #595959;
+    font-size: 13px;
+  }
+  
+  .form-input-btn {
+    display: block;
+	font-size: 16px;
+	text-transform: uppercase;
+	border: 1px solid #dfa974;
+	border-radius: 2px;
+	color: #dfa974;
+	font-weight: 500;
+	background: transparent;
+	width: 100%;
+	height: 46px;
+	margin-top: 30px;
+  }
+  
+  .form-input-btn:hover {
+    cursor: pointer;
+    
+  }
+  
+  .form-input-login {
+    font-size: 0.8rem;
+    /* margin-top: 50px; */
+    color: black;
+    width: 80%;
+    margin-left: 70px;
+    padding-top: 40px;
+  }
+  
+  .form-input-login a {
+    text-decoration: none;
+    color: #27cdff;
+    font-weight: 600;
+  }
+
+  .footer-section {
+	background: #222736;
+}
+.footer-section .footer-text {
+	padding: 80px 0 30px;
+}
+.footer-section .footer-text .ft-about .logo img {
+	margin-left: -50px;
+	margin-top: -40px;
+	width: 75%;
+    height: 75%;
+}
+.footer-section .footer-text .ft-about .logo a {
+	display: inline-block;
+}
+.footer-section .footer-text .ft-about p {
+	color: #aaaab3;
+	margin-bottom: 20px;
+}
+.footer-section .footer-text .ft-about .fa-social a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #ffffff;
+	border: 1px solid #5A4D48;
+	border-radius: 50%;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-right: 7px;
+}
+.footer-section .footer-text .ft-about .fa-social a:hover {
+	background: #dfa974;
+	border-color: #dfa974;
+}
+.footer-section .footer-text .ft-contact {
+	margin-bottom: 30px;
+}
+.footer-section .footer-text .ft-contact h6 {
+	font-size: 14px;
+	color: #dfa974;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-family: "Cabin", sans-serif;
+	margin-bottom: 20px;
+}
+.footer-section .footer-text .ft-contact ul li {
+	font-size: 16px;
+	color: #aaaab3;
+	line-height: 32px;
+	list-style: circle;
+	margin-left: -40px;
+}
+.footer-section .footer-text .ft-news h6 {
+	font-size: 14px;
+	color: #dfa974;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-family: "Cabin", sans-serif;
+	margin-bottom: 20px;
+}
+.footer-section .footer-text .ft-news p {
+	color: #aaaab3;
+	margin-bottom: 20px;
+}
+.footer-section .footer-text .ft-news .fn-form {
+	position: relative;
+}
+.footer-section .footer-text .ft-news .fn-form input {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #393D4A;
+	border: none;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #707079;
+}
+.footer-section .footer-text .ft-news .fn-form button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 16px;
+	background: #dfa974;
+	color: #ffffff;
+	padding: 0 16px;
+	height: 50px;
+	border: none;
+	border-radius: 0 2px 2px 0;
+}
+
+
